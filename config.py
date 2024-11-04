@@ -1,0 +1,2 @@
+TOKEN = "7675885812:AAH0MfYDTi6iM05wJ4-sORketqWRbU6CLvg"
+CHANNELS = ["@Artifex_Gravis"]
