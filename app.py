@@ -33,8 +33,8 @@ async def command_start_handler(message: Message) -> None:
 async def check_subscription(callback_query: CallbackQuery):
     check = await is_subscribed(user_id=callback_query.from_user.id, bot=bot)
     print(check)
-    if check:
         await callback_query.message.delete()
+    if check:
         await callback_query.message.answer(
             f"Assalomu aleykum, {callback_query.from_user.full_name}!"
         )
